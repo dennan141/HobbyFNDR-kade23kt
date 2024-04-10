@@ -4,16 +4,7 @@ import Navigation from "../Components/Navigation/Navigation";
 
 export default function Home() {
   return (
-    <main className={styles.main}>
-      
-      
-      <Navigation />
-
-
-      {
-        // * -------------- MAIN --------------
-      }
-
+    <>
       <div className={styles.description}>
         <p>
           Dagge Danger 😁
@@ -48,6 +39,6 @@ export default function Home() {
           priority
         />
       </div>
-    </main>
+    </>
   );
 }

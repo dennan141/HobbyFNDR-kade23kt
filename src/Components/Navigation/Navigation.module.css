@@ -3,6 +3,7 @@
     grid-template-columns: repeat(4, minmax(25%, auto));
     max-width: 100%;
     width: var(--max-width);
+    margin-bottom: 1rem;
   }
 
   .card {

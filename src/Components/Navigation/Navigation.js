@@ -8,7 +8,7 @@ const LINKS = [
     description: "Click here to return home",
   },
   {
-    href: "/about",
+    href: "/about-new",
     text: "About",
     description: "About me and my projects",
   },
@@ -18,9 +18,9 @@ const LINKS = [
     description: "A few tools I built",
   },
   {
-    href: "/about-new",
-    text: "NEW about me",
-    description: "New version of about me",
+    href: "/about",
+    text: "OLD about me",
+    description: "OLD version of about me",
   }
 ];
 
