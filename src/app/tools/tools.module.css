@@ -1,0 +1,8 @@
+.toolsLink{
+    color: blue;
+    transition: color ease-in-out 0.3s;
+}
+
+.toolsLink:hover{
+    color:  white;
+}
