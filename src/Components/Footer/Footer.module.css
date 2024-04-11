@@ -1,0 +1,13 @@
+.footer {
+  position: fixed; /* Fixed position */
+  bottom: 0; /* Align to the bottom of the viewport */
+  left: 0; /* Align to the left of the viewport */
+  width: 100%; /* Full width */
+  display: grid;
+  grid-template-columns: 1fr auto; /* 1 fraction for the left content, auto for the right content */
+  align-items: center; /* Center align items vertically */
+  padding: 0.2rem; /* Padding around the content */
+  background-color: #2c2c2c; /* Background color for the footer */
+  color: #fff; /* Text color */
+}
+

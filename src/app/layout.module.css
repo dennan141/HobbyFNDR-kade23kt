@@ -3,6 +3,13 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    padding: 2rem 6rem;
+    padding: 1rem 6rem;
     min-height: 100vh;
+  }
+
+  .logo {
+    position: fixed; /* or "absolute" depending on your requirements */
+    top: 0;
+    left: 0;
+    z-index: 999; /* Ensure the image is above other content */
   }

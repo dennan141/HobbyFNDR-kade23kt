@@ -1,5 +1,6 @@
 import styles from "./Navigation.module.css";
 import Link from "next/link";
+import Image from "next/image";
 
 const LINKS = [
   {
@@ -17,27 +18,24 @@ const LINKS = [
     text: "Tools",
     description: "A few tools I built",
   },
-  {
-    href: "/about",
-    text: "OLD about me",
-    description: "OLD version of about me",
-  }
 ];
 
 export default function Navigation() {
   return (
-    <div className={styles.grid}>
-      {/* {LINKS.map((l) => (
-        <NavigationLink
-          text={l.text}
-          href={l.href}
-          description={l.description}
+    <div className={styles.navigation}>
+      <Image
+          className={styles.logo}
+          src="/Hobbyfndr.png"
+          alt="Hobby fndr logga"
+          width={100}
+          height={100}
+          priority
         />
-      ))} */}
-
-      {LINKS.map((x) => (
-        <NavigationLink key={x.href} {...x} />
-      ))}
+      <div className={styles.grid}>
+        {LINKS.map((x) => (
+          <NavigationLink key={x.href} {...x} />
+        ))}
+      </div>
     </div>
   );
 }
