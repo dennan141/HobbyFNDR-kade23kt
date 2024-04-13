@@ -2,21 +2,22 @@ import styles from "./Navigation.module.css";
 import Link from "next/link";
 import Image from "next/image";
 
+
 const LINKS = [
   {
     href: "/",
     text: "Home",
-    description: "Click here to return home",
+    description: "Klicka här för att läsa mer om HobbyFndr",
   },
   {
-    href: "/about-new",
-    text: "About",
-    description: "About me and my projects",
+    href: "/contact",
+    text: "Kontakt",
+    description: "Kontakta mig angående mina projekt",
   },
   {
     href: "/tools",
-    text: "Tools",
-    description: "A few tools I built",
+    text: "Mer info",
+    description: "Mer info om HobbyFndr och dess delar",
   },
 ];
 
