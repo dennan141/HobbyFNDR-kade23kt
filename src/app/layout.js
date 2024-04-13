@@ -1,6 +1,7 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
 import styles from "./layout.module.css";
+import tailwindStyles from "./globals.css"
 import Navigation from "@/Components/Navigation/Navigation";
 import Footer from "@/Components/Footer/Footer";
 import Image from "next/image";

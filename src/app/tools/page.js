@@ -7,16 +7,23 @@ export default function ToolsPage() {
       <h1>Tools</h1>
 
       <div>
-        <b>Calculator: </b>
-        <Link href="/tools/Calculator" className={styles.toolsLink}>
-          Test the Calculator
+        <b>Profil: </b>
+        <Link href="/tools/profile" className={styles.toolsLink}>
+          Kika på hur profiler kan se ut
         </Link>
       </div>
 
       <div>
-        <b>Dice: </b>
-        <Link href="/tools/Dice" className={styles.toolsLink}>
-        Test the Dice
+        <b>Annonser: </b>
+        <Link href="/tools/posts" className={styles.toolsLink}>
+          Testa några annonser
+        </Link>
+      </div>
+
+      <div>
+        <b>Meddelanden: </b>
+        <Link href="/tools/messages" className={styles.toolsLink}>
+          Spana in meddelanden
         </Link>
       </div>
     </>

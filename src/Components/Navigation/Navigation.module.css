@@ -141,6 +141,10 @@
     padding: 4rem;
   }
 
+  .logo{
+    display: none;
+  }
+
   .grid {
     grid-template-columns: 1fr;
     margin-bottom: 120px;
