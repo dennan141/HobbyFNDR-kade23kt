@@ -1,10 +1,12 @@
 import Link from "next/link";
-import styles from "./tools.module.css";
 
-export default function Post() {
+
+
+export default function SinglePost({ title, body }) {
   return (
     <>
-      <h1>A Single post</h1>
+      <h1>{title}</h1>
+      <p>{body}</p>
     </>
   );
 }

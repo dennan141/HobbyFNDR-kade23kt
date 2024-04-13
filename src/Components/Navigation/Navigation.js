@@ -2,12 +2,11 @@ import styles from "./Navigation.module.css";
 import Link from "next/link";
 import Image from "next/image";
 
-
 const LINKS = [
   {
     href: "/",
-    text: "Home",
-    description: "Klicka här för att läsa mer om HobbyFndr",
+    text: "Hem",
+    description: "Klicka här för att läsa mer om HobbyFNDR",
   },
   {
     href: "/contact",
@@ -24,14 +23,18 @@ const LINKS = [
 export default function Navigation() {
   return (
     <div className={styles.navigation}>
-      <Image
+      <Link href="/">
+        <Image
           className={styles.logo}
           src="/Hobbyfndr.png"
           alt="Hobby fndr logga"
           width={100}
           height={100}
           priority
+          Link
         />
+      </Link>
+
       <div className={styles.grid}>
         {LINKS.map((x) => (
           <NavigationLink key={x.href} {...x} />
@@ -50,38 +53,4 @@ function NavigationLink({ href, text, description }) {
       <p>{description}</p>
     </Link>
   );
-}
-
-{
-  /* <div className={styles.grid}>
-<a href="/" className={styles.card}>
-  <h2>
-    Docs <span>-&gt;</span>
-  </h2>
-  <p>Find in-depth information about Next.js features and API.</p>
-</a>
-
-<a href="/" className={styles.card}>
-  <h2>
-    Learn <span>-&gt;</span>
-  </h2>
-  <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
-</a>
-
-<a href="/" className={styles.card}>
-  <h2>
-    Templates <span>-&gt;</span>
-  </h2>
-  <p>Explore starter templates for Next.js.</p>
-</a>
-
-<a href="/" className={styles.card}>
-  <h2>
-    Deploy <span>-&gt;</span>
-  </h2>
-  <p>
-    Instantly deploy your Next.js site to a shareable URL with Vercel.
-  </p>
-</a>
-</div> */
 }

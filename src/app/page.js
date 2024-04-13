@@ -14,16 +14,17 @@ export default function Home() {
           height={300}
           priority
         />
+        <div>
+          <h2>HobbyFndr</h2>
+          <p className={styles.description}>
+            I denna applikation kan man uppleva känslan av samhörighet på ett
+            enkelt och digitalt vis. Internet är gjort för att sammankoppla
+            människor men nu mer än någonsin håler folk avstånd till varandra.
+            Genom att låta folk sammankopplas med sina fritidsintressen kan man
+            enkelt sälja sina tjänster som lekman och generera inkomst.
+          </p>
+        </div>
       </div>
-
-      <h2>HobbyFndr</h2>
-      <p className={styles}>
-        I denna applikation kan man uppleva känslan av samhörighet på ett enkelt
-        och digitalt vis. Internet är gjort för att sammankoppla människor men
-        nu mer än någonsin håler folk avstånd till varandra. Genom att låta folk
-        sammankopplas med sina fritidsintressen kan man enkelt sälja sina
-        tjänster som lekman och generera inkomst.
-      </p>
     </>
   );
 }

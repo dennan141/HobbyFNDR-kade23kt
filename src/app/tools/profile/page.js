@@ -17,7 +17,6 @@ export default function ProfilePage() {
         <div className={styles.bread}>
           <h3>Profil information</h3>
           <p>
-            {" "}
             Enligt bilden ovan ser man en snabb överblick på att det viktigaste
             på en persons profil-sida är att visa vem man är, vad man redan kan
             och vad man är mer intresserad av att lära sig. Eftersom konceptet
