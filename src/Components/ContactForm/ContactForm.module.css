@@ -1,55 +1,54 @@
 /* Style for form container */
 .contactformcontainer {
-    width: 30rem;
-    max-width: 30rem;
-    margin: 3px auto;
-    padding: 3px auto;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-  }
-  
-  /* Style for form labels */
-  .contactformcontainer label {
-    display: block;
-    margin-bottom: 5px;
-  }
-  
-  /* Style for form inputs */
-  .contactformcontainer input[type="text"],
-  .contactformcontainer input[type="email"],
-  .contactformcontainer textarea {
-    width: 100%;
-    padding: 8px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-  }
-  
-  /* Style for submit button */
-  .contactformcontainer button[type="submit"] {
-    background-color: #007bff;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  .contactformcontainer button[type="submit"]:hover {
-    background-color: #0056b3;
-  }
-  
-  /* Optional: Style for form heading */
-  .contactformcontainer h1 {
-    text-align: center;
-    margin-bottom: 20px;
-  }
+  width: 30rem;
+  max-width: 30rem;
+  margin: 3px auto;
+  padding: 3px auto;
+  border: solid 1px #ccc;
+  border-radius: 5px;
+}
 
-  .hidden {
-    display: none;
-  }
+/* Style for form labels */
+.contactformcontainer label {
+  display: block;
+  margin-bottom: 5px;
+}
 
-  .shown {
-    display: flex;
-  }
-  
+/* Style for form inputs */
+.contactformcontainer input[type="text"],
+.contactformcontainer input[type="email"],
+.contactformcontainer textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Style for submit button */
+.contactformcontainer button[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contactformcontainer button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+/* Optional: Style for form heading */
+.contactformcontainer h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.hidden {
+  display: none;
+}
+
+.shown {
+  display: flex;
+}

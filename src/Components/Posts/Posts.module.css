@@ -1,4 +1,7 @@
 .singlePost{
-    border: 1px;
-    border-color: aliceblue;
+    border: solid lightblue 2px;
+    background-color: darkcyan;
+    margin: 1rem;
+    padding: 0.5rem;
+    width: 30rem;
 }

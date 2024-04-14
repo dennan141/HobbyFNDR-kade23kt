@@ -34,11 +34,10 @@ export default function ContactForm() {
 
       <form onSubmit={handleSubmit} className={styles.contactformcontainer}>
         <div>
-          <label htmlFor="name" className={styles.contactformcontainer}>
+          <label htmlFor="name" className="">
             Name:
           </label>
           <input
-            className={styles.contactformcontainer}
             type="text"
             id="name"
             name="name"
@@ -48,11 +47,8 @@ export default function ContactForm() {
           />
         </div>
         <div>
-          <label htmlFor="email" className={styles.contactformcontainer}>
-            Email:
-          </label>
+          <label htmlFor="email">Email:</label>
           <input
-            className={styles.contactformcontainer}
             type="email"
             id="email"
             name="email"
@@ -62,11 +58,8 @@ export default function ContactForm() {
           />
         </div>
         <div>
-          <label htmlFor="message" className={styles.contactformcontainer}>
-            Message:
-          </label>
+          <label htmlFor="message">Message:</label>
           <textarea
-            className={styles.contactformcontainer}
             id="message"
             name="message"
             rows="5"
@@ -75,9 +68,7 @@ export default function ContactForm() {
             required
           ></textarea>
         </div>
-        <button type="submit" className={styles.contactformcontainer}>
-          Submit
-        </button>
+        <button type="submit">Submit</button>
       </form>
     </>
   );
