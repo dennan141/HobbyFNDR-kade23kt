@@ -1,43 +1,44 @@
 import styles from "./Navigation.module.css";
 import Link from "next/link";
+import Image from "next/image";
 
 const LINKS = [
   {
     href: "/",
-    text: "Home",
-    description: "Click here to return home",
+    text: "Hem",
+    description: "Klicka här för att läsa mer om HobbyFNDR",
   },
   {
-    href: "/about-new",
-    text: "About",
-    description: "About me and my projects",
+    href: "/contact",
+    text: "Kontakt",
+    description: "Kontakta mig angående mina projekt",
   },
   {
     href: "/tools",
-    text: "Tools",
-    description: "A few tools I built",
+    text: "Mer info",
+    description: "Mer info om HobbyFndr och dess delar",
   },
-  {
-    href: "/about",
-    text: "OLD about me",
-    description: "OLD version of about me",
-  }
 ];
 
 export default function Navigation() {
   return (
-    <div className={styles.grid}>
-      {/* {LINKS.map((l) => (
-        <NavigationLink
-          text={l.text}
-          href={l.href}
-          description={l.description}
+    <div className={styles.navigation}>
+      <Link href="/">
+        <Image
+          className={styles.logo}
+          src="/Hobbyfndr.png"
+          alt="Hobby fndr logga"
+          width={100}
+          height={100}
+          priority
         />
-      ))} */}
+      </Link>
 
-      {LINKS.map((x) => (
-        <NavigationLink key={x.href} {...x} />
-      ))}
+      <div className={styles.grid}>
+        {LINKS.map((x) => (
+          <NavigationLink key={x.href} {...x} />
+        ))}
+      </div>
     </div>
   );
 }
@@ -51,38 +52,4 @@ function NavigationLink({ href, text, description }) {
       <p>{description}</p>
     </Link>
   );
-}
-
-{
-  /* <div className={styles.grid}>
-<a href="/" className={styles.card}>
-  <h2>
-    Docs <span>-&gt;</span>
-  </h2>
-  <p>Find in-depth information about Next.js features and API.</p>
-</a>
-
-<a href="/" className={styles.card}>
-  <h2>
-    Learn <span>-&gt;</span>
-  </h2>
-  <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
-</a>
-
-<a href="/" className={styles.card}>
-  <h2>
-    Templates <span>-&gt;</span>
-  </h2>
-  <p>Explore starter templates for Next.js.</p>
-</a>
-
-<a href="/" className={styles.card}>
-  <h2>
-    Deploy <span>-&gt;</span>
-  </h2>
-  <p>
-    Instantly deploy your Next.js site to a shareable URL with Vercel.
-  </p>
-</a>
-</div> */
 }
