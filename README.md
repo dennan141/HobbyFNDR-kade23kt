@@ -1,3 +1,14 @@
+# Läs mig
+## Start
+För att starta projketet ladda ner det och öppna konsolen i Visual Studio Code. (Crtl/CMD + Ö). 
+Enligt nedan beskrivet kör sedan kommandot ```npm run dev```
+
+Sidan anpassar sig efter dina teman-inställningar på datorn. Du navigerar enklast genom menyn längst upp. 
+REQUIRMENTS.md ligger i projekt-mappen. Du kan läsa den som den är men jag rekommenderar [shd101wyy.markdown-preview-enhanced](https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced)) sedan högerklick och "öppna markdown-preview" för att läsa filen som den är tänkt.
+
+---
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
