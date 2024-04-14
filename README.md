@@ -3,9 +3,16 @@
 För att starta projketet ladda ner det och öppna konsolen i Visual Studio Code. (Crtl/CMD + Ö). 
 Enligt nedan beskrivet kör sedan kommandot ```npm run dev```
 
-Sidan anpassar sig efter dina teman-inställningar på datorn. Du navigerar enklast genom menyn längst upp. 
-REQUIRMENTS.md ligger i projekt-mappen. Du kan läsa den som den är men jag rekommenderar [shd101wyy.markdown-preview-enhanced](https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced)) sedan högerklick och "öppna markdown-preview" för att läsa filen som den är tänkt.
+## Snabb information
+Sidan anpassar sig efter dina teman-inställningar på datorn. 
+Du navigerar enklast genom menyn längst upp. 
+REQUIRMENTS.md ligger i projekt-mappen. 
 
+## Tips
+Du kan läsa requirments.md / readme.md som den är men jag rekommenderar [shd101wyy.markdown-preview-enhanced](https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced)) 
+Ladda ner den och öppna en markdown fil i vsCode, sedan högerklick och "öppna markdown-preview" (ctrl + k v) för att läsa filen som den är tänkt.
+
+Lycka till!
 ---
 
 
