@@ -14,8 +14,19 @@ export default function ProfilePage() {
       />
       <h2>Exempel konversation</h2>
 
+      <p>
+        Genom att låta användare skicka meddelanden på sidan istället för privat
+        kan man enklare se till att lagar och regler följs. Att låta betalning
+        ske via sidan gör det också säkare för användare att bevisa vilka summor
+        som kommit lverens om ifall parter har skiljda åsikter.
+        <br />
+        <br />
+        Det är en säkerhet och en trygghet som inte bör vara allt för svår att
+        implementera.
+      </p>
+
       {/* // * Exemepel konversation */}
-      
+
       <div className={styles.messageContainer}>
         <p className={styles.rightMessage + " " + styles.message}>
           Hej! Vill du ses och lära mig fiska? 😁❤️

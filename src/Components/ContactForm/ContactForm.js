@@ -35,7 +35,7 @@ export default function ContactForm() {
       <form onSubmit={handleSubmit} className={styles.contactformcontainer}>
         <div>
           <label htmlFor="name" className="">
-            Name:
+            Namn:
           </label>
           <input
             type="text"
@@ -58,7 +58,7 @@ export default function ContactForm() {
           />
         </div>
         <div>
-          <label htmlFor="message">Message:</label>
+          <label htmlFor="message">Meddelande:</label>
           <textarea
             id="message"
             name="message"
@@ -68,7 +68,7 @@ export default function ContactForm() {
             required
           ></textarea>
         </div>
-        <button type="submit">Submit</button>
+        <button type="submit">Skicka</button>
       </form>
     </>
   );
