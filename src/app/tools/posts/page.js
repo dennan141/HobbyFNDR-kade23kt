@@ -1,4 +1,3 @@
-
 import SinglePost from "@/Components/Posts/Posts";
 import styles from "./posts.module.css";
 
@@ -42,14 +41,13 @@ export default function ProfilePage() {
 
       {/* //* This creates the posts "dynamically" */}
       {postsArray.map((post, index) => (
-        <div className={styles.posts}>
-          <SinglePost key={index} title={post.title} body={post.body} />
-        </div>
+        <SinglePost key={index} title={post.title} body={post.body} />
       ))}
     </>
   );
 }
 
+// TODO: Consider implementing
 function randomNumberOfPosts() {
   return Math.ceil(Math.random * 10);
 }

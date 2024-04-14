@@ -31,7 +31,6 @@ export default function Navigation() {
           width={100}
           height={100}
           priority
-          Link
         />
       </Link>
 

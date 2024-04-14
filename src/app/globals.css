@@ -62,20 +62,6 @@ body {
   /* 2 */
 }
 
-/*
-1. Add the correct height in Firefox.
-2. Correct the inheritance of border color in Firefox. (https://bugzilla.mozilla.org/show_bug.cgi?id=190655)
-3. Ensure horizontal rules are visible by default.
-*/
-
-hr {
-  height: 0;
-  /* 1 */
-  color: inherit;
-  /* 2 */
-  border-top-width: 1px;
-  /* 3 */
-}
 
 /*
 Add the correct text decoration in Chrome, Edge, and Safari.
@@ -86,14 +72,6 @@ abbr:where([title]) {
           text-decoration: underline dotted;
 }
 
-/*
-Remove the default font size and weight for headings.
-*/
-
-
-/*
-Reset links to optimize for opt-in styling instead of opt-out.
-*/
 
 a {
   color: inherit;
@@ -164,14 +142,6 @@ sup {
 3. Remove gaps between table borders by default.
 */
 
-table {
-  text-indent: 0;
-  /* 1 */
-  border-color: inherit;
-  /* 2 */
-  border-collapse: collapse;
-  /* 3 */
-}
 
 /*
 1. Change the font styles in all browsers.
